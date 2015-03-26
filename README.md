@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # mean session 6 "done" files
 This repo now works properly with the controller and partial in separate directories. Please note the following.
 
@@ -39,3 +40,7 @@ $scope.user = { name: "Daniel" };
 Add at least one item to the $scope of PortfolioListController to have them display on your 404 page. If you are really stuck look at the 404page branch in this repo.
 
 There are a number of assets and design components (done in Bootstrap) available [here](http://daniel.deverell.com/css-files/other/pirate/pirate/).
+=======
+# session6done
+Contains changes for  404 error page
+>>>>>>> afd9f41213bffb692c381f61a671bc12a18ff978
