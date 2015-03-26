@@ -15,3 +15,9 @@ helloWorldControllers.controller('ShowCtrl', ['$scope', '$location', '$http',
     function ShowCtrl($scope, $location, $http) {
         $scope.message = "Show The World";
     }]);
+
+
+helloWorldControllers.controller('ErrorCtrl', ['$scope', '$location', '$http',
+        function ShowCtrl($scope, $location, $http) {
+            $scope.message = "!!! Error - Page not found!!!";
+        }]);

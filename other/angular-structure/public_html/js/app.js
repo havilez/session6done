@@ -3,9 +3,9 @@
 /* App Module */
 
 var helloWorldApp = angular.module('helloWorldApp', [
-    'ngRoute',     
+    'ngRoute',
     'helloWorldControllers'
-    
+
 ]);
 
 
@@ -18,10 +18,8 @@ helloWorldApp.config(['$routeProvider', '$locationProvider',
                 }).when('/show', {
                     templateUrl: 'partials/show.html',
                     controller: 'ShowCtrl'
-                });
+                }).otherwise({ templateUrl: 'partials/404.html',
+                                controller: 'ErrorCtrl'});
 
         $locationProvider.html5Mode(false).hashPrefix('!');
     }]);
-
-
-
